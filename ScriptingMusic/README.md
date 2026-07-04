@@ -48,6 +48,7 @@ Scripting Music/
 ├── index.tsx              # 入口，TabView（资料库 / 发现 / 搜索 / 设置）
 ├── widget.tsx             # 主屏幕小组件（当前播放）
 ├── app_intents.tsx        # Shortcuts App Intent
+├── MUSIC_SOURCE_REFERENCE.md # 音源架构参考（参考 lx-music-source）
 ├── class/
 │   ├── player.ts          # 播放器核心（playToken 竞态、shuffle 历史栈、封面补抓）
 │   ├── database.ts        # JSON 本地数据存储（music / playlist / download_task 等）
@@ -72,6 +73,12 @@ Scripting Music/
 ├── specs/                 # 需求与设计 spec 文档（按日期命名）
 └── tests/                 # 单元测试
 ```
+
+## 音源架构参考
+
+本项目音源设计参考 [pdone/lx-music-source](https://github.com/pdone/lx-music-source) 的多源插件思想：统一 source 接口、按 provider 分发、支持播放直链/封面/歌词等能力扩展。
+
+详细约定见：[MUSIC_SOURCE_REFERENCE.md](./MUSIC_SOURCE_REFERENCE.md)
 
 ## 运行环境
 
