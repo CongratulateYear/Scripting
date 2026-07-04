@@ -35,4 +35,5 @@
 - 内置书源和自定义书源都可以删除；需要恢复时可点“重置为内置演示源”。
 - 修复书源删除后列表未立即生效 / 空列表自动恢复内置源的问题。
 - 导入书源支持直接粘贴 JSON、网络导入地址、GitHub 仓库/文件链接，以及包含链接的说明文本。
-- 支持从 `https://github.com/liufuyou/read` 这类整理仓库中递归识别链接并导入可用书源。
+- 导入阶段增加校验：404 / HTML 错误页 / 缺少可映射规则的内容不会再被静默当作书源导入。
+- `https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json` 当前返回 404，且上游仓库已被 GitHub 禁用；请换用仍可访问的书源地址。
