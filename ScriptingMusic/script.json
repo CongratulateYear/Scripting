@@ -1,0 +1,45 @@
+{
+  "author" : null,
+  "localizedNames" : {
+    "de" : "",
+    "pt" : "",
+    "it" : "",
+    "en" : "",
+    "ja" : "",
+    "ru" : "",
+    "es" : "",
+    "zh" : "",
+    "fr" : ""
+  },
+  "entry" : "index.tsx",
+  "name" : "Scripting Music",
+  "iconImage" : "",
+  "color" : "rgba(255, 48, 0, 1.00)",
+  "contributors" : [
+
+  ],
+  "intentInputTypes" : [
+
+  ],
+  "runInApp" : false,
+  "icon" : "music.note",
+  "permissions" : null,
+  "remoteResource" : {
+    "autoUpdateInterval" : 600,
+    "url" : "https:\/\/github.com\/thomfang\/scripting-music",
+    "hash" : "6e737787535f04d7faa0d0c234097b1b"
+  },
+  "localizedDescriptions" : {
+    "it" : "",
+    "zh" : "",
+    "ru" : "",
+    "pt" : "",
+    "en" : "",
+    "es" : "",
+    "ja" : "",
+    "de" : "",
+    "fr" : ""
+  },
+  "description" : "",
+  "version" : "2.0.0"
+}
